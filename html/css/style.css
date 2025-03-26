@@ -1,3 +1,14 @@
+head {
+    .shrikhand-regular {
+        font-family: "Shrikhand", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    margin: 0px;
+    padding: 0px;  
+}
+
+
 body, h1, h2, p, ul, li, a {
     margin: 0px;
     padding: 0px;
@@ -130,12 +141,15 @@ menu-nav ul {
 /*Produtos*/
 
 .produtos {
+    font-size: 3em;
+    line-height: 1;
     max-width: 960px;
-    margin: 60px auto;
+    margin: 0 auto;
+    padding: 60px 10px;
 }
 .produtos h1 {
     font-size: 3em;
-    margin: 0 10px 60px 10px;
+    margin: 0 auto;
 }
 .produtos-container {
     display: flex;
@@ -349,7 +363,7 @@ menu-nav ul {
 
 .footer {
     display: flex;
-    background: #010725;
+    background: #000;
     height: 200px;
     align-items: center;
 }
